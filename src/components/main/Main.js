@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../common/Header';
 import Visual from './Visual';
 import News from './News';
@@ -11,14 +10,13 @@ import { useState } from 'react';
 function Main() {
 	const [Scrolled, setScrolled] = useState(0);
 	const [Pos, setPos] = useState([]);
-	{
-		/* 미션 답안 : 부모요소에 State와 State변경함수를 만들고, 값을 전달해야 되는 자식 컴포넌트에는 State변경함수를, 값을 받아야 되는 자식 컴포넌트에는 State값을 prop으로 전달. */
-	}
+
 	return (
 		<main>
 			<Header type={'main'} />
 			<Visual />
 			<News />
+			{/* Pics컴포넌트가 활성화되는 순간부터 Scrolled값을 Pics의 제목 스타일과 연동 */}
 			<Pics Scrolled={Scrolled} Pos={Pos[2]} />
 			<Vids />
 			<Banner />

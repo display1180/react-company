@@ -11,9 +11,11 @@
 				filter: saturate(100%);
 			}
 		}
+
 		.branch {
 			li {
 				cursor: pointer;
+
 				&.on {
 					color: hotpink;
 				}
