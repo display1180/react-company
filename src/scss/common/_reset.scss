@@ -1,29 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Condensed:wght@700&display=swap");
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto condensed";
 }
 body {
-	background: #efefef;
-	width: 100%;
-	overflow-x: hidden;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  overflow-x: hidden;
 }
 ul,
 ol,
 li {
-	list-style: none;
+  list-style: none;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 fieldset {
-	border: none;
+  border: none;
 }
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
 }
 .h {
-	position: absolute;
-	top: -999999px;
-	opacity: 0;
+  position: absolute;
+  top: -999999px;
+  opacity: 0;
 }
